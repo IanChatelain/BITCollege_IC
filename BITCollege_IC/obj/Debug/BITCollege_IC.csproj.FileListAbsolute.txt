@@ -1,0 +1,359 @@
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll.config
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.pdb
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe.config
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.rsp
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe.config
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.rsp
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.AppContext.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Console.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Http.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.ValueTuple.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe.config
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.rsp
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\EntityFramework.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Utility.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\WebGrease.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Utility.pdb
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\EntityFramework.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.pdb
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.AssemblyReference.cache
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CoreCompileInputs.cache
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CopyComplete
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.pdb
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.Initial.resources
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.GenerateResource.cache
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.UpdateAddressDisplay.resources
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll.config
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.pdb
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe.config
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.rsp
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe.config
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.rsp
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.AppContext.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Console.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Http.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.ValueTuple.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe.config
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.rsp
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\EntityFramework.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Utility.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\WebGrease.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Utility.pdb
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\EntityFramework.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.pdb
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.AssemblyReference.cache
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.Initial.resources
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.UpdateAddressDisplay.resources
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.GenerateResource.cache
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CoreCompileInputs.cache
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CopyComplete
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.dll
+C:\Users\arkli\source\repos\ADEV-A3\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll.config
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe.config
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.rsp
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe.config
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.rsp
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.AppContext.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Console.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Http.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.ValueTuple.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe.config
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.rsp
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\EntityFramework.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Utility.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\WebGrease.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Utility.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\EntityFramework.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.AssemblyReference.cache
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CoreCompileInputs.cache
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CopyComplete
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.InitialCreate.resources
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.GenerateResource.cache
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.addedNextNumberClass.resources
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Properties.Resources.resources
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.addedStoredProcedures.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll.config
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\BITCollege_IC.pdb
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.exe.config
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\csc.rsp
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.exe.config
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\csi.rsp
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.AppContext.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Console.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Http.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.ValueTuple.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.exe.config
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\vbc.rsp
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\EntityFramework.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Utility.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\WebGrease.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Utility.pdb
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\EntityFramework.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\EntityFramework.SqlServer.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Helpers.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Mvc.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Optimization.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.Razor.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\System.Web.WebPages.Razor.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Newtonsoft.Json.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Antlr3.Runtime.pdb
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.AssemblyReference.cache
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.InitialCreate.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.addedNextNumberClass.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.addedStoredProcedures.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Properties.Resources.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.GenerateResource.cache
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CoreCompileInputs.cache
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.csproj.CopyComplete
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.pdb
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.addedAutoGenNumbers.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.updatedStudentSetNextStudentNumber.resources
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\BITCollege_IC\obj\Debug\BITCollege_IC.Migrations.updatedStudentSetNextStudentNumber1.resources

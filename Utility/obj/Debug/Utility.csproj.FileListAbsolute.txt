@@ -1,0 +1,24 @@
+C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\bin\Debug\Utility.dll
+C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\bin\Debug\Utility.pdb
+C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.dll
+C:\Users\lauri\Desktop\Programming 3\School\BITCollege_22\Utility\obj\Debug\Utility.pdb
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\Utility\bin\Debug\Utility.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\Utility\bin\Debug\Utility.pdb
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\Utility\obj\Debug\Utility.dll
+C:\Users\arkli\Desktop\ADEV\Module 02 - MVC Views and Controllers\BITCollege_IC\Utility\obj\Debug\Utility.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\Utility\bin\Debug\Utility.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\Utility\bin\Debug\Utility.pdb
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\Utility\obj\Debug\Utility.dll
+C:\Users\arkli\OneDrive\Desktop\RRC\ADEV\Module 3 - Patterns\BITCollege_IC-Stable-Oct12\BITCollege_IC\Utility\obj\Debug\Utility.pdb
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\Utility\bin\Debug\Utility.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\Utility\bin\Debug\Utility.pdb
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\Utility\obj\Debug\Utility.dll
+C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\Utility\obj\Debug\Utility.pdb
