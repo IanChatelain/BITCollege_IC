@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Configuration;
 using System.Text;
 using System.Web.Security;
 using Utility;
@@ -64,36 +65,29 @@ namespace BITCollegeService
         {
             int errorCode = 0;
 
-            IQueryable<Registration> allRecords = db.Registrations.Where
-            (
-                x => x.StudentId == studentId && 
-                x.CourseId == courseId
-            );
+            IQueryable<Registration> allRecords = db.Registrations.Where(x => x.StudentId == studentId && x.CourseId == courseId);
 
             Course course = db.Courses.Where(c => c.CourseId == courseId).SingleOrDefault();
             Student student = db.Students.Where(s => s.StudentId == studentId).SingleOrDefault();
 
-            IEnumerable<Registration> nullRecords = allRecords.Where
-            (
-                x => x.Grade == null
-            );
+            IEnumerable<Registration> nullRecords = allRecords.Where(x => x.Grade == null);
+            IEnumerable<Registration> completeRecords = allRecords.Where(x => x.Grade != null);
 
-            IEnumerable<Registration> completeRecords = allRecords.Where
-            (
-                x => x.Grade != null
-            );
-
-            if (nullRecords.Count() > 0)
+            if (errorCode == 0 && nullRecords.Count() > 0)
             {
                 errorCode = -100;
             }
 
-            if(BusinessRules.CourseTypeLookup(course.CourseType) == CourseType.MASTERY)
+            if(errorCode == 0 && course != null)
             {
-                int attempts = ((MasteryCourse)course).MaximumAttempts;
-                if (completeRecords.Count() > attempts)
+                if (BusinessRules.CourseTypeLookup(course.CourseType) == CourseType.MASTERY)
                 {
-                    errorCode = -200;
+                    int recordCount = completeRecords.Count();
+                    int attempts = ((MasteryCourse)course).MaximumAttempts;
+                    if (recordCount >= attempts)
+                    {
+                        errorCode = -200;
+                    }
                 }
             }
 
@@ -126,6 +120,13 @@ namespace BITCollegeService
             return errorCode;
         }
 
+        /// <summary>
+        /// Updates GPA.
+        /// </summary>
+        /// <param name="grade">The students grade for a registration</param>
+        /// <param name="registrationId">The registration id for the registration</param>
+        /// <param name="notes">Notes associated with the registration</param>
+        /// <returns>The new calculated GPA value.</returns>
         public double? UpdateGrade(double grade, int registrationId, string notes)
         {
             Registration registration = db.Registrations.Where(x => x.RegistrationId == registrationId).SingleOrDefault();
@@ -140,28 +141,50 @@ namespace BITCollegeService
         }
 
         /// <summary>
-        /// Updates the grade for a student's registration.
+        /// Calculates the grade point average of a student.
         /// </summary>
-        /// <param name="grade">The new grade to be assigned.</param>
-        /// <param name="registrationId">The ID of the registration.</param>
-        /// <param name="notes">Additional notes related to the grade update.</param>
-        /// <returns>The updated grade point average, if applicable.</returns>
+        /// <param name="studentId">The student id of the student.</param>
+        /// <returns>The calculated grade point average.</returns>
         private double? CalculateGradePointAverage(int studentId)
         {
             double grade;
-            CourseType courseType;
+            CourseType courseType; 
             double gradePoint;
             double gradePointValue;
-            double totalCreditHours;
-            double totalGradePointValue;
-            Double? calculatedGradePointAverage;
+            double totalCreditHours = 0;
+            double totalGradePointValue = 0;
+            Double? calculatedGradePointAverage = null;
 
-            Registration registration =
-                (from results in db.Registrations
-                where results.StudentId == studentId
-               select results).SingleOrDefault();
+            IQueryable<Registration> allRecords = db.Registrations.Where(x => x.StudentId == studentId && x.Grade != null);
+            
+            foreach(Registration record in allRecords.ToList())
+            {
+                grade = (double)record.Grade;
+                courseType = BusinessRules.CourseTypeLookup(record.Course.CourseType);
 
-            return null;
+                if (courseType != CourseType.AUDIT)
+                {
+                    gradePoint = BusinessRules.GradeLookup(grade, courseType);
+                    gradePointValue = gradePoint * record.Course.CreditHours;
+                    totalGradePointValue += gradePointValue;
+                    totalCreditHours += record.Course.CreditHours;
+                }
+
+                if(totalCreditHours == 0)
+                {
+                    calculatedGradePointAverage = null;
+                }
+                else
+                {
+                    calculatedGradePointAverage = totalGradePointValue / totalCreditHours;
+                }
+
+                db.SaveChanges();
+            }
+
+            db.Students.Where(x => x.StudentId == studentId).SingleOrDefault().ChangeState();
+
+            return calculatedGradePointAverage;
         }
     }
 }

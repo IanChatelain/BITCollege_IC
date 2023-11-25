@@ -312,7 +312,7 @@ namespace BITCollege_IC.Models
         /// <returns>The adjusted tuition rate.</returns>
         public override double TuitionRateAdjustment(Student student)
         {
-            double localRate = probationState.TuitionRateFactor;
+            double localRate = TuitionRateFactor;
             IQueryable<Registration> studentCourses = db.Registrations.Where(x => x.StudentId == student.StudentId
                                                       && x.Grade != null);
 
@@ -387,7 +387,7 @@ namespace BITCollege_IC.Models
         /// <returns>The adjusted tuition rate.</returns>
         public override double TuitionRateAdjustment(Student student)
         {
-            return regularState.TuitionRateFactor;
+            return TuitionRateFactor;
         }
 
         /// <summary>
@@ -453,7 +453,7 @@ namespace BITCollege_IC.Models
         /// <returns>The adjusted tuition rate.</returns>
         public override double TuitionRateAdjustment(Student student)
         {
-            double localRate = honorState.TuitionRateFactor;
+            double localRate = TuitionRateFactor;
             IQueryable<Registration> completedCourses = db.Registrations.Where(x => x.StudentId == student.StudentId
                                                       && x.Grade != null);
 

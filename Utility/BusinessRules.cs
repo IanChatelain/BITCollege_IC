@@ -154,9 +154,24 @@ namespace Utility
         /// </summary>
         /// <param name="errorCode">Integer code indicating error type.</param>
         /// <returns></returns>
-        public static string RegisterError(int errorCode)
+        public static String RegisterError(int errorCode)
         {
-            return string.Empty;
+            String errorMessage = "Unknown error.";
+
+            switch (errorCode)
+            {
+                case -100:
+                    errorMessage = "Student cannot register for a course in which there is already an ungraded registration.";
+                    break;
+                case -200:
+                    errorMessage = "Student has exceeded maximum attempts on mastery course.";
+                    break;
+                case -300:
+                    errorMessage = "An error has occurred while updating the registration.";
+                    break;
+            }
+
+            return errorMessage;
         }
 
         public static string ParseString(string stringToBeParsed, string parseAtIndex)
