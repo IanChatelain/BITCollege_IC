@@ -110,7 +110,6 @@
             registrationNumberLabel.Size = new System.Drawing.Size(106, 13);
             registrationNumberLabel.TabIndex = 0;
             registrationNumberLabel.Text = "Registration Number:";
-            registrationNumberLabel.Click += new System.EventHandler(this.registrationNumberLabel_Click);
             // 
             // courseNumberLabel
             // 
@@ -129,7 +128,6 @@
             creditHoursLabel.Size = new System.Drawing.Size(68, 13);
             creditHoursLabel.TabIndex = 4;
             creditHoursLabel.Text = "Credit Hours:";
-            creditHoursLabel.Click += new System.EventHandler(this.creditHoursLabel_Click);
             // 
             // titleLabel
             // 
@@ -199,7 +197,6 @@
             this.dateCreatedLabel1.Name = "dateCreatedLabel1";
             this.dateCreatedLabel1.Size = new System.Drawing.Size(100, 23);
             this.dateCreatedLabel1.TabIndex = 3;
-            this.dateCreatedLabel1.Click += new System.EventHandler(this.dateCreatedLabel1_Click);
             // 
             // studentNumberMaskedTextBox
             // 
@@ -210,6 +207,7 @@
             this.studentNumberMaskedTextBox.Name = "studentNumberMaskedTextBox";
             this.studentNumberMaskedTextBox.Size = new System.Drawing.Size(100, 20);
             this.studentNumberMaskedTextBox.TabIndex = 0;
+            this.studentNumberMaskedTextBox.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.studentNumberMaskedTextBox.Leave += new System.EventHandler(this.studentNumberMaskedTextBox_Leave);
             // 
             // lnkUpdateGrade
@@ -252,7 +250,6 @@
             this.grpRegistration.TabIndex = 1;
             this.grpRegistration.TabStop = false;
             this.grpRegistration.Text = "Registration Data";
-            this.grpRegistration.Enter += new System.EventHandler(this.grpRegistration_Enter);
             // 
             // titleLabel1
             // 

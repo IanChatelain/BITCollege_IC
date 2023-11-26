@@ -101,13 +101,12 @@
             // studentNumberMaskedLabel1
             // 
             this.studentNumberMaskedLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.studentNumberMaskedLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null, "N0"));
+            this.studentNumberMaskedLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null));
             this.studentNumberMaskedLabel1.Location = new System.Drawing.Point(132, 31);
             this.studentNumberMaskedLabel1.Mask = "0000-0000";
             this.studentNumberMaskedLabel1.Name = "studentNumberMaskedLabel1";
             this.studentNumberMaskedLabel1.Size = new System.Drawing.Size(100, 23);
             this.studentNumberMaskedLabel1.TabIndex = 7;
-            this.studentNumberMaskedLabel1.Text = "    -";
             // 
             // studentBindingSource
             // 

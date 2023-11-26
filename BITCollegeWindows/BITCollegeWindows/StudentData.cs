@@ -90,31 +90,11 @@ namespace BITCollegeWindows
             this.registrationBindingSource.DataSource = studentRegistrations.ToList();
         }
 
-        private void dateCreatedLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void grpRegistration_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void registrationNumberLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void creditHoursLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void studentNumberMaskedTextBox_Leave(object sender, EventArgs e)
         {
             // Ensure user has completed requirements for the Mask.
             MaskedTextBox studentNumberTextBox = ((MaskedTextBox)sender);
-            int studentNum = int.Parse(studentNumberTextBox.Text.Replace("-", ""));
+            int studentNum = int.Parse(studentNumberTextBox.Text);
             Student student = db.Students.Where(x => x.StudentNumber == studentNum).SingleOrDefault();
 
             if (student == null)
