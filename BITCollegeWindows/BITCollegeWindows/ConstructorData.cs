@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BITCollege_IC.Models;
 
 namespace BITCollegeWindows
 {
@@ -13,5 +14,7 @@ namespace BITCollegeWindows
     /// </summary>
     public class ConstructorData
     {
+        public Student Student { get; set; }
+        public Registration Registration { get; set; }
     }
 }

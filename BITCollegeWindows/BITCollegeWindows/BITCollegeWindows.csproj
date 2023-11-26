@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -12,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +36,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +70,11 @@
     </Compile>
     <Compile Include="BITCollege.Designer.cs">
       <DependentUpon>BITCollege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\RegistrationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="ConstructorData.cs" />
     <Compile Include="Grading.cs">
@@ -104,6 +121,33 @@
     <EmbeddedResource Include="StudentData.resx">
       <DependentUpon>StudentData.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Connected Services\RegistrationService\CollegeRegistration.wsdl" />
+    <None Include="Connected Services\RegistrationService\CollegeRegistration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\RegistrationService\CollegeRegistration1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.AcademicProgram.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.AuditCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.Course.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.GradedCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.GradePointState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.HonorState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.MasteryCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.NextAuditCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.NextGradedCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.NextMasteryCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.NextRegistration.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.NextStudent.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.NextUniqueNumber.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.ProbationState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.Registration.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.RegularState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.StoredProcedure.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.Student.datasource" />
+    <None Include="Properties\DataSources\BITCollege_IC.Models.SuspendedState.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -131,5 +175,34 @@
       <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\RegistrationService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\RegistrationService\CollegeRegistration.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\RegistrationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\RegistrationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\RegistrationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
 </Project>

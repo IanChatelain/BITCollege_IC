@@ -1,5 +1,8 @@
-﻿using System;
+﻿using BITCollege_IC.Data;
+using BITCollege_IC.Models;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -12,6 +15,8 @@ namespace BITCollegeWindows
 {
     public partial class StudentData : Form
     {
+        BITCollege_ICContext db = new BITCollege_ICContext();
+
         ///Given: Student and Registration data will be retrieved
         ///in this form and passed throughout application
         ///These variables will be used to store the current
@@ -71,6 +76,25 @@ namespace BITCollegeWindows
         {
             //keeps location of form static when opened and closed
             this.Location = new Point(0, 0);
+
+            IQueryable<Student> students = from results in db.Students select results;
+            IQueryable<Registration> registrations = from results in db.Registrations select results;
+
+
+            studentBindingSource.DataSource = students.ToList();
+            IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == ((Student)studentBindingSource.Current).StudentId);
+
+            registrationBindingSource.DataSource = studentRegistrations.ToList();
+        }
+
+        private void dateCreatedLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grpRegistration_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
