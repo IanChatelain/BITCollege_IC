@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BITCollege_IC.Data;
+using BITCollege_IC.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace BITCollegeWindows
 {
     public partial class History : Form
     {
+        BITCollege_ICContext db = new BITCollege_ICContext();
 
         ///given:  student and registration data will passed throughout 
         ///application. This object will be used to store the current
@@ -53,6 +56,28 @@ namespace BITCollegeWindows
         private void History_Load(object sender, EventArgs e)
         {
             this.Location = new Point(0, 0);
+
+            try
+            {
+                var registrationCourses =
+                from Registrations in db.Registrations
+                join Courses in db.Courses
+                on Registrations.CourseId equals Courses.CourseId
+                select new
+                {
+                    RegistrationNumber = Registrations.RegistrationNumber,
+                    RegistrationDate = Registrations.RegistrationDate,
+                    CourseTitle = Courses.Title,
+                    Grade = Registrations.Grade,
+                    Notes = Registrations.Notes
+                };
+
+                this.registrationBindingSource.DataSource = registrationCourses.ToList();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

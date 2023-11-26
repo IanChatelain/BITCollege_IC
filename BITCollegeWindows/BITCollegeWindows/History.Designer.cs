@@ -178,7 +178,7 @@
             // 
             // dataGridViewTextBoxColumn9
             // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Course";
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "CourseTitle";
             this.dataGridViewTextBoxColumn9.HeaderText = "Course";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.Width = 165;
