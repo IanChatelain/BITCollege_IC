@@ -78,7 +78,7 @@ namespace BITCollegeWindows
             this.Location = new Point(0, 0);
 
             IQueryable<Student> students = from results in db.Students select results;
-            IQueryable<Registration> registrations = from results in db.Registrations select results;
+            //IQueryable<Registration> registrations = from results in db.Registrations select results;
 
 
             studentBindingSource.DataSource = students.ToList();
@@ -95,6 +95,24 @@ namespace BITCollegeWindows
         private void grpRegistration_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void registrationNumberLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void creditHoursLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentNumberMaskedTextBox_Leave(object sender, EventArgs e)
+        {
+            // Ensure user has completed requirements for the Mask.
+            int studentId = int.Parse(((MaskedTextBox)sender).Text);
+            Student student = db.Students.Where(x => x.StudentId == studentId).SingleOrDefault();
+            ((Student)studentBindingSource.Current).StudentId)
         }
     }
 }
