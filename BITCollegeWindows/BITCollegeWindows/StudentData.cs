@@ -81,10 +81,10 @@ namespace BITCollegeWindows
             //IQueryable<Registration> registrations = from results in db.Registrations select results;
 
 
-            studentBindingSource.DataSource = students.ToList();
+            this.studentBindingSource.DataSource = students.ToList();
             IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == ((Student)studentBindingSource.Current).StudentId);
 
-            registrationBindingSource.DataSource = studentRegistrations.ToList();
+            this.registrationBindingSource.DataSource = studentRegistrations.ToList();
         }
 
         private void dateCreatedLabel1_Click(object sender, EventArgs e)
@@ -110,9 +110,57 @@ namespace BITCollegeWindows
         private void studentNumberMaskedTextBox_Leave(object sender, EventArgs e)
         {
             // Ensure user has completed requirements for the Mask.
-            int studentId = int.Parse(((MaskedTextBox)sender).Text);
-            Student student = db.Students.Where(x => x.StudentId == studentId).SingleOrDefault();
-            ((Student)studentBindingSource.Current).StudentId)
+            MaskedTextBox studentNumberTextBox = ((MaskedTextBox)sender);
+            int studentNum = int.Parse(studentNumberTextBox.Text.Replace("-", ""));
+            Student student = db.Students.Where(x => x.StudentNumber == studentNum).SingleOrDefault();
+
+            if (student == null)
+            {
+                string message = String.Format("Student {0} does not exist", studentNum);
+                initialState(studentNumberTextBox);
+                MessageBox.Show(message, "Invalid Student Number", MessageBoxButtons.OK);
+            }
+            else
+            {
+                this.studentBindingSource.DataSource = student;
+                IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == student.StudentId);
+
+                if (studentRegistrations == null)
+                {
+                    initialState(studentNumberTextBox);
+                }
+                else
+                {
+                    this.registrationBindingSource.DataSource = studentRegistrations.ToList();
+                    setLinkLabelsEnabled(true);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Sets initial state of the StudentData form.
+        /// </summary>
+        /// <param name="maskedTextBox">A form control that will be set to focus.</param>
+        private void initialState(Control controlToFocus = null)
+        {
+            if (controlToFocus != null)
+            {
+                controlToFocus.Focus();
+            }
+
+            setLinkLabelsEnabled(false);
+            studentBindingSource.DataSource = typeof(Student);
+            registrationBindingSource.DataSource = typeof(Registration);
+        }
+
+        /// <summary>
+        /// Sets the enabled state of the link labels on the StudentData form.
+        /// </summary>
+        /// <param name="enable">A boolean to enable or disable the labels.</param>
+        private void setLinkLabelsEnabled(bool enable)
+        {
+            lnkViewDetails.Enabled = enable;
+            lnkUpdateGrade.Enabled = enable;
         }
     }
 }
