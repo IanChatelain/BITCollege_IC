@@ -32,6 +32,9 @@ namespace BITCollegeWindows
         public History(ConstructorData constructorData)
         {
             InitializeComponent();
+
+            this.studentBindingSource.DataSource = constructorData.Student;
+            this.registrationBindingSource.DataSource = constructorData.Registration;
         }
 
 

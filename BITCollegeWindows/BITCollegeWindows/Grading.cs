@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BITCollege_IC.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +31,9 @@ namespace BITCollegeWindows
         public Grading(ConstructorData constructor)
         {
             InitializeComponent();
+
+            this.studentBindingSource.DataSource = constructor.Student;
+            this.registrationBindingSource.DataSource = constructor.Registration;
         }
 
         /// <summary>
@@ -39,7 +43,6 @@ namespace BITCollegeWindows
         /// </summary>
         private void lnkReturn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //return to student with the data selected for this form
             StudentData student = new StudentData(constructorData);
             student.MdiParent = this.MdiParent;
             student.Show();

@@ -43,7 +43,6 @@ namespace BITCollegeWindows
         public StudentData (ConstructorData constructor)
         {
             InitializeComponent();
-            //Further code to be added.
         }
 
         /// <summary>
@@ -51,6 +50,8 @@ namespace BITCollegeWindows
         /// </summary>
         private void lnkUpdateGrade_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.constructorData.Student = (Student)studentBindingSource.Current;
+            this.constructorData.Registration = (Registration)registrationBindingSource.Current;
             Grading grading = new Grading(constructorData);
             grading.MdiParent = this.MdiParent;
             grading.Show();
@@ -63,6 +64,8 @@ namespace BITCollegeWindows
         /// </summary>
         private void lnkViewDetails_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.constructorData.Student = (Student)studentBindingSource.Current;
+            this.constructorData.Registration = (Registration)registrationBindingSource.Current;
             History history = new History(constructorData);
             history.MdiParent = this.MdiParent;
             history.Show();
