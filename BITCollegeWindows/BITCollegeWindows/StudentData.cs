@@ -10,6 +10,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Utility;
+using System.Globalization;
 
 namespace BITCollegeWindows
 {
@@ -92,30 +94,42 @@ namespace BITCollegeWindows
 
         private void studentNumberMaskedTextBox_Leave(object sender, EventArgs e)
         {
-            // Ensure user has completed requirements for the Mask.
-            MaskedTextBox studentNumberTextBox = ((MaskedTextBox)sender);
-            int studentNum = int.Parse(studentNumberTextBox.Text);
-            Student student = db.Students.Where(x => x.StudentNumber == studentNum).SingleOrDefault();
+            // TODO: This is being fired by form closing as well which is causing message box to pop up.
+            MaskedTextBox studentNumberTextBox = (MaskedTextBox)sender;
 
-            if (student == null)
+            if (!studentNumberTextBox.MaskCompleted)
             {
-                string message = String.Format("Student {0} does not exist", studentNum);
-                initialState(studentNumberTextBox);
-                MessageBox.Show(message, "Invalid Student Number", MessageBoxButtons.OK);
+                MessageBox.Show("Please complete the student number.", "Incomplete Input", MessageBoxButtons.OK);
+                studentNumberTextBox.Focus();
+                setState(studentNumberTextBox);
+                return;
             }
-            else
-            {
-                this.studentBindingSource.DataSource = student;
-                IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == student.StudentId);
 
-                if (studentRegistrations == null)
+            if (Numeric.IsNumeric(studentNumberTextBox.Text, NumberStyles.Integer))
+            {
+                int studentNum = int.Parse(studentNumberTextBox.Text);
+                Student student = db.Students.Where(x => x.StudentNumber == studentNum).SingleOrDefault();
+
+                if (student == null)
                 {
-                    initialState(studentNumberTextBox);
+                    string message = String.Format("Student {0} does not exist", studentNum);
+                    setState(studentNumberTextBox);
+                    MessageBox.Show(message, "Invalid Student Number", MessageBoxButtons.OK);
                 }
                 else
                 {
-                    this.registrationBindingSource.DataSource = studentRegistrations.ToList();
-                    setLinkLabelsEnabled(true);
+                    this.studentBindingSource.DataSource = student;
+                    IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == student.StudentId);
+
+                    if (studentRegistrations == null)
+                    {
+                        setState(studentNumberTextBox);
+                    }
+                    else
+                    {
+                        this.registrationBindingSource.DataSource = studentRegistrations.ToList();
+                        setControlsEnabled(true);
+                    }
                 }
             }
         }
@@ -124,14 +138,14 @@ namespace BITCollegeWindows
         /// Sets initial state of the StudentData form.
         /// </summary>
         /// <param name="maskedTextBox">A form control that will be set to focus.</param>
-        private void initialState(Control controlToFocus = null)
+        private void setState(Control controlToFocus = null)
         {
             if (controlToFocus != null)
             {
                 controlToFocus.Focus();
             }
 
-            setLinkLabelsEnabled(false);
+            setControlsEnabled(false);
             studentBindingSource.DataSource = typeof(Student);
             registrationBindingSource.DataSource = typeof(Registration);
         }
@@ -139,8 +153,8 @@ namespace BITCollegeWindows
         /// <summary>
         /// Sets the enabled state of the link labels on the StudentData form.
         /// </summary>
-        /// <param name="enable">A boolean to enable or disable the labels.</param>
-        private void setLinkLabelsEnabled(bool enable)
+        /// <param name="enable">A boolean to enable or disable the controls.</param>
+        private void setControlsEnabled(bool enable)
         {
             lnkViewDetails.Enabled = enable;
             lnkUpdateGrade.Enabled = enable;

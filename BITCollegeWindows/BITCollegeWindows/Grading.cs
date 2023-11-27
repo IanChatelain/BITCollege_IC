@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Utility;
 
 namespace BITCollegeWindows
 {
@@ -34,6 +35,8 @@ namespace BITCollegeWindows
 
             this.studentBindingSource.DataSource = constructor.Student;
             this.registrationBindingSource.DataSource = constructor.Registration;
+
+            setState(constructor);
         }
 
         /// <summary>
@@ -56,6 +59,11 @@ namespace BITCollegeWindows
         private void Grading_Load(object sender, EventArgs e)
         {
             this.Location = new Point(0, 0);
+
+            var programDescription = ((Registration)registrationBindingSource.Current).Course.AcademicProgram.Description;
+
+            CourseType courseType = BusinessRules.CourseTypeLookup(programDescription);
+            studentNumberMaskedLabel.Mask = BusinessRules.CourseFormat(courseType.ToString());
         }
 
         /// <summary>
@@ -64,6 +72,34 @@ namespace BITCollegeWindows
         private void lnkUpdate_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+        }
+
+        /// <summary>
+        /// Sets the state of the controls.
+        /// </summary>
+        /// <param name="constructorData">An object that represents the data source data.</param>
+        private void setState(ConstructorData constructorData)
+        {
+            if(constructorData.Registration.Grade == null)
+            {
+                setControlsEnabled(true);
+            }
+            else
+            {
+                setControlsEnabled(false);
+            }
+
+        }
+
+        /// <summary>
+        /// Sets the enabled state of the link labels on the Grading form.
+        /// </summary>
+        /// <param name="enable">A boolean to enable or disable the controls.</param>
+        private void setControlsEnabled(bool enable)
+        {
+            this.lblExisting.Visible = !enable;
+            this.gradeTextBox.Enabled = enable;
+            this.lnkUpdate.Enabled = enable;
         }
     }
 }

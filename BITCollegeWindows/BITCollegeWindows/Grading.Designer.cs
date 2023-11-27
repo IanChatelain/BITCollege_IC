@@ -41,14 +41,14 @@
             this.fullNameLabel1 = new System.Windows.Forms.Label();
             this.studentNumberMaskedLabel = new EWSoftware.MaskedLabelControl.MaskedLabel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.titleLabel1 = new System.Windows.Forms.Label();
+            this.gradeTextBox = new System.Windows.Forms.TextBox();
             this.registrationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.courseTypeLabel1 = new System.Windows.Forms.Label();
+            this.titleLabel1 = new System.Windows.Forms.Label();
             this.courseNumberMaskedLabel = new EWSoftware.MaskedLabelControl.MaskedLabel();
             this.lnkReturn = new System.Windows.Forms.LinkLabel();
             this.lnkUpdate = new System.Windows.Forms.LinkLabel();
             this.lblExisting = new System.Windows.Forms.Label();
-            this.courseTypeLabel1 = new System.Windows.Forms.Label();
-            this.gradeTextBox = new System.Windows.Forms.TextBox();
             studentNumberLabel = new System.Windows.Forms.Label();
             fullNameLabel = new System.Windows.Forms.Label();
             descriptionLabel = new System.Windows.Forms.Label();
@@ -97,6 +97,24 @@
             courseNumberLabel.TabIndex = 3;
             courseNumberLabel.Text = "Course Number:";
             // 
+            // courseTypeLabel
+            // 
+            courseTypeLabel.AutoSize = true;
+            courseTypeLabel.Location = new System.Drawing.Point(48, 76);
+            courseTypeLabel.Name = "courseTypeLabel";
+            courseTypeLabel.Size = new System.Drawing.Size(70, 13);
+            courseTypeLabel.TabIndex = 6;
+            courseTypeLabel.Text = "Course Type:";
+            // 
+            // gradeLabel
+            // 
+            gradeLabel.AutoSize = true;
+            gradeLabel.Location = new System.Drawing.Point(48, 121);
+            gradeLabel.Name = "gradeLabel";
+            gradeLabel.Size = new System.Drawing.Size(39, 13);
+            gradeLabel.TabIndex = 8;
+            gradeLabel.Text = "Grade:";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(descriptionLabel);
@@ -137,13 +155,11 @@
             // studentNumberMaskedLabel
             // 
             this.studentNumberMaskedLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.studentNumberMaskedLabel.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null));
+            this.studentNumberMaskedLabel.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true));
             this.studentNumberMaskedLabel.Location = new System.Drawing.Point(133, 32);
-            this.studentNumberMaskedLabel.Mask = "0000-0000";
             this.studentNumberMaskedLabel.Name = "studentNumberMaskedLabel";
             this.studentNumberMaskedLabel.Size = new System.Drawing.Size(100, 23);
             this.studentNumberMaskedLabel.TabIndex = 1;
-            this.studentNumberMaskedLabel.Text = "    -";
             // 
             // groupBox2
             // 
@@ -164,6 +180,28 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Grading Information";
             // 
+            // gradeTextBox
+            // 
+            this.gradeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.gradeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.registrationBindingSource, "Grade", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null, "P2"));
+            this.gradeTextBox.Location = new System.Drawing.Point(137, 118);
+            this.gradeTextBox.Name = "gradeTextBox";
+            this.gradeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.gradeTextBox.TabIndex = 9;
+            // 
+            // registrationBindingSource
+            // 
+            this.registrationBindingSource.DataSource = typeof(BITCollege_IC.Models.Registration);
+            // 
+            // courseTypeLabel1
+            // 
+            this.courseTypeLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.courseTypeLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.registrationBindingSource, "Course.CourseType", true));
+            this.courseTypeLabel1.Location = new System.Drawing.Point(137, 76);
+            this.courseTypeLabel1.Name = "courseTypeLabel1";
+            this.courseTypeLabel1.Size = new System.Drawing.Size(100, 23);
+            this.courseTypeLabel1.TabIndex = 7;
+            // 
             // titleLabel1
             // 
             this.titleLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -172,10 +210,6 @@
             this.titleLabel1.Name = "titleLabel1";
             this.titleLabel1.Size = new System.Drawing.Size(163, 23);
             this.titleLabel1.TabIndex = 6;
-            // 
-            // registrationBindingSource
-            // 
-            this.registrationBindingSource.DataSource = typeof(BITCollege_IC.Models.Registration);
             // 
             // courseNumberMaskedLabel
             // 
@@ -218,42 +252,6 @@
             this.lblExisting.TabIndex = 0;
             this.lblExisting.Text = "Existing grades cannot be modified.";
             this.lblExisting.Visible = false;
-            // 
-            // courseTypeLabel
-            // 
-            courseTypeLabel.AutoSize = true;
-            courseTypeLabel.Location = new System.Drawing.Point(48, 76);
-            courseTypeLabel.Name = "courseTypeLabel";
-            courseTypeLabel.Size = new System.Drawing.Size(70, 13);
-            courseTypeLabel.TabIndex = 6;
-            courseTypeLabel.Text = "Course Type:";
-            // 
-            // courseTypeLabel1
-            // 
-            this.courseTypeLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.courseTypeLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.registrationBindingSource, "Course.CourseType", true));
-            this.courseTypeLabel1.Location = new System.Drawing.Point(137, 76);
-            this.courseTypeLabel1.Name = "courseTypeLabel1";
-            this.courseTypeLabel1.Size = new System.Drawing.Size(100, 23);
-            this.courseTypeLabel1.TabIndex = 7;
-            // 
-            // gradeLabel
-            // 
-            gradeLabel.AutoSize = true;
-            gradeLabel.Location = new System.Drawing.Point(48, 121);
-            gradeLabel.Name = "gradeLabel";
-            gradeLabel.Size = new System.Drawing.Size(39, 13);
-            gradeLabel.TabIndex = 8;
-            gradeLabel.Text = "Grade:";
-            // 
-            // gradeTextBox
-            // 
-            this.gradeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.gradeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.registrationBindingSource, "Grade", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null, "P2"));
-            this.gradeTextBox.Location = new System.Drawing.Point(137, 118);
-            this.gradeTextBox.Name = "gradeTextBox";
-            this.gradeTextBox.Size = new System.Drawing.Size(100, 20);
-            this.gradeTextBox.TabIndex = 9;
             // 
             // Grading
             // 
