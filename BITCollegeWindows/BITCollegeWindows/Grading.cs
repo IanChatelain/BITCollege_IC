@@ -32,6 +32,7 @@ namespace BITCollegeWindows
         public Grading(ConstructorData constructor)
         {
             InitializeComponent();
+            this.constructorData = constructor;
 
             this.studentBindingSource.DataSource = constructor.Student;
             this.registrationBindingSource.DataSource = constructor.Registration;

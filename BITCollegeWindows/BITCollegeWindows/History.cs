@@ -32,9 +32,8 @@ namespace BITCollegeWindows
         public History(ConstructorData constructorData)
         {
             InitializeComponent();
-
+            this.constructorData = constructorData;
             this.studentBindingSource.DataSource = constructorData.Student;
-            this.registrationBindingSource.DataSource = constructorData.Registration;
         }
 
 
@@ -45,7 +44,6 @@ namespace BITCollegeWindows
         /// </summary>
         private void lnkReturn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //return to student with the data selected for this form
             StudentData student = new StudentData(constructorData);
             student.MdiParent = this.MdiParent;
             student.Show();
@@ -66,6 +64,7 @@ namespace BITCollegeWindows
                 from Registrations in db.Registrations
                 join Courses in db.Courses
                 on Registrations.CourseId equals Courses.CourseId
+                where Registrations.StudentId == this.constructorData.Student.StudentId
                 select new
                 {
                     RegistrationNumber = Registrations.RegistrationNumber,
@@ -75,7 +74,9 @@ namespace BITCollegeWindows
                     Notes = Registrations.Notes
                 };
 
-                this.registrationBindingSource.DataSource = registrationCourses.ToList();
+                var registrationCourseList = registrationCourses.ToList();
+
+                this.registrationBindingSource.DataSource = registrationCourseList;
             }
             catch(Exception ex)
             {

@@ -32,6 +32,14 @@ namespace BITCollegeWindows
         public StudentData()
         {
             InitializeComponent();
+
+            IQueryable<Student> students = from results in db.Students select results;
+
+
+            this.studentBindingSource.DataSource = students.ToList();
+            IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == ((Student)studentBindingSource.Current).StudentId);
+
+            this.registrationBindingSource.DataSource = studentRegistrations.ToList();
         }
 
         /// <summary>
@@ -45,6 +53,10 @@ namespace BITCollegeWindows
         public StudentData (ConstructorData constructor)
         {
             InitializeComponent();
+            this.constructorData = constructor;
+            this.studentNumberMaskedTextBox.Text = constructor.Student.StudentNumber.ToString();
+
+            studentNumberMaskedTextBox_Leave(null, null);
         }
 
         /// <summary>
@@ -79,41 +91,28 @@ namespace BITCollegeWindows
         /// </summary>
         private void StudentData_Load(object sender, EventArgs e)
         {
-            //keeps location of form static when opened and closed
             this.Location = new Point(0, 0);
-
-            IQueryable<Student> students = from results in db.Students select results;
-            //IQueryable<Registration> registrations = from results in db.Registrations select results;
-
-
-            this.studentBindingSource.DataSource = students.ToList();
-            IQueryable<Registration> studentRegistrations = db.Registrations.Where(x => x.StudentId == ((Student)studentBindingSource.Current).StudentId);
-
-            this.registrationBindingSource.DataSource = studentRegistrations.ToList();
         }
 
         private void studentNumberMaskedTextBox_Leave(object sender, EventArgs e)
         {
-            // TODO: This is being fired by form closing as well which is causing message box to pop up.
-            MaskedTextBox studentNumberTextBox = (MaskedTextBox)sender;
-
-            if (!studentNumberTextBox.MaskCompleted)
+            if (!this.studentNumberMaskedTextBox.MaskCompleted)
             {
                 MessageBox.Show("Please complete the student number.", "Incomplete Input", MessageBoxButtons.OK);
-                studentNumberTextBox.Focus();
-                setState(studentNumberTextBox);
+                this.studentNumberMaskedTextBox.Focus();
+                setState(this.studentNumberMaskedTextBox);
                 return;
             }
 
-            if (Numeric.IsNumeric(studentNumberTextBox.Text, NumberStyles.Integer))
+            if (Numeric.IsNumeric(this.studentNumberMaskedTextBox.Text, NumberStyles.Integer))
             {
-                int studentNum = int.Parse(studentNumberTextBox.Text);
+                int studentNum = int.Parse(this.studentNumberMaskedTextBox.Text);
                 Student student = db.Students.Where(x => x.StudentNumber == studentNum).SingleOrDefault();
 
                 if (student == null)
                 {
                     string message = String.Format("Student {0} does not exist", studentNum);
-                    setState(studentNumberTextBox);
+                    setState(this.studentNumberMaskedTextBox);
                     MessageBox.Show(message, "Invalid Student Number", MessageBoxButtons.OK);
                 }
                 else
@@ -123,12 +122,16 @@ namespace BITCollegeWindows
 
                     if (studentRegistrations == null)
                     {
-                        setState(studentNumberTextBox);
+                        setState(this.studentNumberMaskedTextBox);
                     }
                     else
                     {
                         this.registrationBindingSource.DataSource = studentRegistrations.ToList();
                         setControlsEnabled(true);
+                        if (constructorData.Registration != null)
+                        {
+                            this.registrationNumberComboBox.Text = this.constructorData.Registration.RegistrationNumber.ToString();
+                        }
                     }
                 }
             }

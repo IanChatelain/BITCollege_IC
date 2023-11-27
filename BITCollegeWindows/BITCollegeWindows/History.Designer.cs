@@ -101,7 +101,7 @@
             // studentNumberMaskedLabel1
             // 
             this.studentNumberMaskedLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.studentNumberMaskedLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null));
+            this.studentNumberMaskedLabel1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true));
             this.studentNumberMaskedLabel1.Location = new System.Drawing.Point(132, 31);
             this.studentNumberMaskedLabel1.Mask = "0000-0000";
             this.studentNumberMaskedLabel1.Name = "studentNumberMaskedLabel1";
@@ -147,6 +147,8 @@
             // 
             // registrationDataGridView
             // 
+            this.registrationDataGridView.AllowUserToAddRows = false;
+            this.registrationDataGridView.AllowUserToDeleteRows = false;
             this.registrationDataGridView.AutoGenerateColumns = false;
             this.registrationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.registrationDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -158,6 +160,7 @@
             this.registrationDataGridView.DataSource = this.registrationBindingSource;
             this.registrationDataGridView.Location = new System.Drawing.Point(37, 173);
             this.registrationDataGridView.Name = "registrationDataGridView";
+            this.registrationDataGridView.ReadOnly = true;
             this.registrationDataGridView.Size = new System.Drawing.Size(649, 220);
             this.registrationDataGridView.TabIndex = 2;
             // 
@@ -166,6 +169,7 @@
             this.dataGridViewTextBoxColumn4.DataPropertyName = "RegistrationNumber";
             this.dataGridViewTextBoxColumn4.HeaderText = "Registration Number";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn5
             // 
@@ -176,12 +180,14 @@
             this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewTextBoxColumn5.HeaderText = "Date";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             // 
             // Course
             // 
             this.Course.DataPropertyName = "CourseTitle";
             this.Course.HeaderText = "Course";
             this.Course.Name = "Course";
+            this.Course.ReadOnly = true;
             this.Course.Width = 165;
             // 
             // dataGridViewTextBoxColumn6
@@ -193,6 +199,7 @@
             this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewTextBoxColumn6.HeaderText = "Grade";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.Width = 75;
             // 
             // dataGridViewTextBoxColumn7
@@ -200,6 +207,7 @@
             this.dataGridViewTextBoxColumn7.DataPropertyName = "Notes";
             this.dataGridViewTextBoxColumn7.HeaderText = "Notes";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
             this.dataGridViewTextBoxColumn7.Width = 165;
             // 
             // History
