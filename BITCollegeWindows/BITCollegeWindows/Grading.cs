@@ -61,10 +61,9 @@ namespace BITCollegeWindows
         {
             this.Location = new Point(0, 0);
 
-            var programDescription = ((Registration)registrationBindingSource.Current).Course.AcademicProgram.Description;
+            var courseType = constructorData.Registration.Course.CourseType;
 
-            CourseType courseType = BusinessRules.CourseTypeLookup(programDescription);
-            studentNumberMaskedLabel.Mask = BusinessRules.CourseFormat(courseType.ToString());
+            courseNumberMaskedLabel.Mask = BusinessRules.CourseFormat(courseType.ToString());
         }
 
         /// <summary>

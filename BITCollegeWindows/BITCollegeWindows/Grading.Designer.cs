@@ -157,6 +157,7 @@
             this.studentNumberMaskedLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.studentNumberMaskedLabel.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentBindingSource, "StudentNumber", true));
             this.studentNumberMaskedLabel.Location = new System.Drawing.Point(133, 32);
+            this.studentNumberMaskedLabel.Mask = "0000-0000";
             this.studentNumberMaskedLabel.Name = "studentNumberMaskedLabel";
             this.studentNumberMaskedLabel.Size = new System.Drawing.Size(100, 23);
             this.studentNumberMaskedLabel.TabIndex = 1;

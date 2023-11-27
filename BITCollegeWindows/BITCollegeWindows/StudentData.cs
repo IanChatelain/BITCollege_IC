@@ -96,15 +96,7 @@ namespace BITCollegeWindows
 
         private void studentNumberMaskedTextBox_Leave(object sender, EventArgs e)
         {
-            if (!this.studentNumberMaskedTextBox.MaskCompleted)
-            {
-                MessageBox.Show("Please complete the student number.", "Incomplete Input", MessageBoxButtons.OK);
-                this.studentNumberMaskedTextBox.Focus();
-                setState(this.studentNumberMaskedTextBox);
-                return;
-            }
-
-            if (Numeric.IsNumeric(this.studentNumberMaskedTextBox.Text, NumberStyles.Integer))
+            if (this.studentNumberMaskedTextBox.Text != null && Numeric.IsNumeric(this.studentNumberMaskedTextBox.Text, NumberStyles.Integer))
             {
                 int studentNum = int.Parse(this.studentNumberMaskedTextBox.Text);
                 Student student = db.Students.Where(x => x.StudentNumber == studentNum).SingleOrDefault();
@@ -128,6 +120,7 @@ namespace BITCollegeWindows
                     {
                         this.registrationBindingSource.DataSource = studentRegistrations.ToList();
                         setControlsEnabled(true);
+
                         if (constructorData.Registration != null)
                         {
                             this.registrationNumberComboBox.Text = this.constructorData.Registration.RegistrationNumber.ToString();
