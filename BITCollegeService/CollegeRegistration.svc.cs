@@ -135,9 +135,7 @@ namespace BITCollegeService
             registration.Notes = notes;
             db.SaveChanges();
 
-            double? gpa = CalculateGradePointAverage(registration.StudentId);
-
-            return gpa;
+            return CalculateGradePointAverage(registration.StudentId);
         }
 
         /// <summary>
@@ -182,7 +180,10 @@ namespace BITCollegeService
                 db.SaveChanges();
             }
 
-            db.Students.Where(x => x.StudentId == studentId).SingleOrDefault().ChangeState();
+            Student student = db.Students.Where(x => x.StudentId == studentId).SingleOrDefault();
+            student.GradePointAverage = calculatedGradePointAverage;
+            student.ChangeState();
+            db.SaveChanges();
 
             return calculatedGradePointAverage;
         }

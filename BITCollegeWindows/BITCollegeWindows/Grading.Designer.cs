@@ -189,6 +189,7 @@
             this.gradeTextBox.Name = "gradeTextBox";
             this.gradeTextBox.Size = new System.Drawing.Size(100, 20);
             this.gradeTextBox.TabIndex = 9;
+            this.gradeTextBox.Validating += new System.ComponentModel.CancelEventHandler(this.gradeTextBox_Validating);
             // 
             // registrationBindingSource
             // 

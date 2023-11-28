@@ -9,11 +9,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Utility;
+using System.Globalization;
 
 namespace BITCollegeWindows
 {
     public partial class Grading : Form
     {
+        private string Grade { get; set; }
+
+        RegistrationService.CollegeRegistrationClient service = new RegistrationService.CollegeRegistrationClient();
 
         ///given:  student and registration data will passed throughout 
         ///application. This object will be used to store the current
@@ -38,6 +42,7 @@ namespace BITCollegeWindows
             this.registrationBindingSource.DataSource = constructor.Registration;
 
             setState(constructor);
+
         }
 
         /// <summary>
@@ -71,6 +76,24 @@ namespace BITCollegeWindows
         /// </summary>
         private void lnkUpdate_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            if (Numeric.IsNumeric(this.Grade, NumberStyles.Number))
+            {
+                double grade = double.Parse(this.Grade);
+                if (grade > 0 && grade <= 1)
+                {
+                    service.UpdateGrade(grade, constructorData.Registration.RegistrationId, "Grade Updated");
+
+                    this.gradeTextBox.Enabled = false;
+                }
+                else
+                {
+                    MessageBox.Show("Grade must be a decimal between 0 and 1.", "Invalid Grade", MessageBoxButtons.OK);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Grade must be numeric.", "Invalid Grade", MessageBoxButtons.OK);
+            }
 
         }
 
@@ -100,6 +123,11 @@ namespace BITCollegeWindows
             this.lblExisting.Visible = !enable;
             this.gradeTextBox.Enabled = enable;
             this.lnkUpdate.Enabled = enable;
+        }
+
+        private void gradeTextBox_Validating(object sender, CancelEventArgs e)
+        {
+            this.Grade = this.gradeTextBox.Text;
         }
     }
 }
