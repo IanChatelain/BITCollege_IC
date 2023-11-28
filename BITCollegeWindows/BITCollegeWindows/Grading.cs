@@ -83,7 +83,7 @@ namespace BITCollegeWindows
                 {
                     service.UpdateGrade(grade, constructorData.Registration.RegistrationId, "Grade Updated");
 
-                    this.gradeTextBox.Enabled = false;
+                    setControlsEnabled(false);
                 }
                 else
                 {
