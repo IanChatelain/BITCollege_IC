@@ -12,3 +12,10 @@ C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\MaskedLabel\obj\Debug\MaskedL
 C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\MaskedLabel\obj\Debug\MaskedLabel.csproj.CoreCompileInputs.cache
 C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.dll
 C:\Users\arkli\OneDrive\Desktop\ADEV\BITCollege_IC\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.pdb
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.xml
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.pdb
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\obj\Debug\MaskedLabel.csproj.AssemblyReference.cache
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\obj\Debug\MaskedLabel.csproj.CoreCompileInputs.cache
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\arkli\OneDrive\Documents\GitHub\BITCollege_IC\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.pdb
