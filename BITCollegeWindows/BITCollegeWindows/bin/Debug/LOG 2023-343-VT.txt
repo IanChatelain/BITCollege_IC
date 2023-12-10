@@ -1,0 +1,79 @@
+
+-----------ERROR-----------
+File: 2023-343-VT.xml
+Program: <program>VT</program>
+Student Number: <student_no>80000002</student_no>
+Course Number: <course_no>*</course_no>
+Registration Number: <registration_no>8011</registration_no>
+Type: <type>2</type>
+Grade: 
+Notes: <notes>***ERROR*** Incorrect number of Child Nodes</notes>
+Node Count: 6
+Error Message: Node count is not 7
+---------------------------
+-----------ERROR-----------
+File: 2023-343-VT.xml
+Program: <program>VV</program>
+Student Number: <student_no>80000003</student_no>
+Course Number: <course_no>*</course_no>
+Registration Number: <registration_no>8013</registration_no>
+Type: <type>2</type>
+Grade: <grade>90</grade>
+Notes: <notes>**ERROR*** Invalid Program Acronym</notes>
+Node Count: 7
+Error Message: Program acronym does not match root program
+---------------------------
+-----------ERROR-----------
+File: 2023-343-VT.xml
+Program: <program>VT</program>
+Student Number: <student_no>80000002</student_no>
+Course Number: <course_no>M-80001</course_no>
+Registration Number: <registration_no>*</registration_no>
+Type: <type>1</type>
+Grade: <grade>@</grade>
+Notes: <notes>***ERROR*** Invalid Grade Value</notes>
+Node Count: 7
+Error Message: Grade is not numeric or '*'.
+---------------------------
+-----------ERROR-----------
+File: 2023-343-VT.xml
+Program: <program>VT</program>
+Student Number: <student_no>80000001</student_no>
+Course Number: <course_no>G-800004</course_no>
+Registration Number: <registration_no>*</registration_no>
+Type: <type>1</type>
+Grade: <grade>100</grade>
+Notes: <notes>***ERROR***  Grade for Type 1 should be a *</notes>
+Node Count: 7
+Error Message: Grade does not match type, or does not exist.
+---------------------------
+-----------ERROR-----------
+File: 2023-343-VT.xml
+Program: <program>VT</program>
+Student Number: <student_no>1111</student_no>
+Course Number: <course_no>G-800004</course_no>
+Registration Number: <registration_no>*</registration_no>
+Type: <type>1</type>
+Grade: <grade>*</grade>
+Notes: <notes>***ERROR*** Student does not exist</notes>
+Node Count: 7
+Error Message: Student number does not exist.
+---------------------------
+-----------ERROR-----------
+File: 2023-343-VT.xml
+Program: <program>VT</program>
+Student Number: <student_no>80000003</student_no>
+Course Number: <course_no>G-800005</course_no>
+Registration Number: <registration_no>1000</registration_no>
+Type: <type>2</type>
+Grade: <grade>22</grade>
+Notes: <notes>***ERROR*** Course for Type 2 should be a *</notes>
+Node Count: 7
+Error Message: Course number does not match type, or does not exist.
+---------------------------
+A grade of: 4.5 has successfully applied to registration: 8012
+A grade of: 4.5 has successfully applied to registration: 8014
+A grade of: 4.5 has successfully applied to registration: 8015
+A grade of: 4.5 has successfully applied to registration: 8013
+Student: 80000003 has successfully registered for course: A-8002
+Student: 80000003 has successfully registered for course: G-800004
